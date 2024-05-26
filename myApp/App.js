@@ -5,7 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.mytext}>
-        My name is Bless Adeti
+        My name is <Text style={styles.textBold}>Bless Adeti</Text>
         </Text>
       <StatusBar style="auto" />
     </View>
@@ -22,5 +22,7 @@ const styles = StyleSheet.create({
   mytext: {
     fontSize: 25,
   },
-  
+  textBold: {
+    fontWeight: 'bold',
+  },
 });
